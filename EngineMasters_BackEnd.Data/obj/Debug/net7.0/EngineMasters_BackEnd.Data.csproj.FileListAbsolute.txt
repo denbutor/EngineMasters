@@ -1,0 +1,5 @@
+C:\Users\Emin\EngineMasters\EngineMasters_BackEnd\EngineMasters_BackEnd.API\EngineMasters_BackEnd.Data\obj\Debug\net7.0\EngineMasters_BackEnd.Data.csproj.AssemblyReference.cache
+C:\Users\Emin\EngineMasters\EngineMasters_BackEnd\EngineMasters_BackEnd.API\EngineMasters_BackEnd.Data\obj\Debug\net7.0\EngineMasters_BackEnd.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emin\EngineMasters\EngineMasters_BackEnd\EngineMasters_BackEnd.API\EngineMasters_BackEnd.Data\obj\Debug\net7.0\EngineMasters_BackEnd.Data.AssemblyInfoInputs.cache
+C:\Users\Emin\EngineMasters\EngineMasters_BackEnd\EngineMasters_BackEnd.API\EngineMasters_BackEnd.Data\obj\Debug\net7.0\EngineMasters_BackEnd.Data.AssemblyInfo.cs
+C:\Users\Emin\EngineMasters\EngineMasters_BackEnd\EngineMasters_BackEnd.API\EngineMasters_BackEnd.Data\obj\Debug\net7.0\EngineMasters_BackEnd.Data.csproj.CoreCompileInputs.cache
