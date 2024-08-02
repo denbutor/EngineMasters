@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EngineMasters_BackEnd.BLL
 build_property.ProjectDir = C:\Users\Emin\EngineMasters\EngineMasters_BackEnd\EngineMasters_BackEnd.API\EngineMasters_BackEnd.BLL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

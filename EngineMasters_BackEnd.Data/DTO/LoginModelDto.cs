@@ -6,6 +6,9 @@ namespace EngineMasters_BackEnd.Data.DTO
     {
         [Required]
         public string Email { get; set; } = string.Empty;
+        
+        [Required]
+        public string PhoneNumber { get; set; } = string.Empty;
 
         [Required]
         public string Password { get; set; } = string.Empty;

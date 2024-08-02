@@ -1,16 +1,14 @@
 using EngineMasters_BackEnd.Data.DTO;
 using EngineMasters_BackEnd.Data.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace EngineMasters_BackEnd.BLL
+namespace EngineMasters_BackEnd.BLL.Interfaces
 {
     public interface IRepairService
     {
-        Task<IEnumerable<RepairBooking>> GetCustomerBookingsAsync(string customerId);
+        Task<IEnumerable<RepairBooking>> GetCustomerBookingsAsync(Guid customerId);
         Task<IEnumerable<RepairBooking>> GetAllBookingsAsync();
-        Task CreateBookingAsync(string customerId, RepairBookingDTO bookingDTO);
-        Task UpdateBookingAsync(string customerId, int id, RepairBookingDTO bookingDTO);
-        Task DeleteBookingAsync(string customerId, int id);
+        Task CreateBookingAsync(Guid customerId, RepairBookingDto bookingDto);
+        Task UpdateBookingAsync(Guid customerId, Guid id, RepairBookingDto bookingDto);
+        Task DeleteBookingAsync(Guid customerId, Guid id);
     }
 }

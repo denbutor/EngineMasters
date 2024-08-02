@@ -21,5 +21,6 @@ namespace EngineMasters_BackEnd.Data.Models
         
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+        // public object Description { get; set; }
     }
 }

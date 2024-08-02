@@ -11,7 +11,7 @@ namespace EngineMasters_BackEnd.API
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<EngineMasters_BackEndContext>(options =>
+            services.AddDbContext<EngineMastersContext>(options =>
                 options.UseSqlite("Data Source=RecordsDatabase.db"));
 
             services.AddControllers();
