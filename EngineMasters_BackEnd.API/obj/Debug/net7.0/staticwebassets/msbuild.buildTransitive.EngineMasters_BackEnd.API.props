@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EngineMasters_BackEnd.API.props" />
+</Project>

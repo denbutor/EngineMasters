@@ -1,10 +1,11 @@
+using System.Reflection;
 using EngineMasters_BackEnd.DAL.Configuration;
 using Microsoft.EntityFrameworkCore;
 using EngineMasters_BackEnd.Data.Models;
 
 namespace EngineMasters_BackEnd.DAL
 {
-    public class EngineMastersContext : DbContext // Виправлено ім'я класу
+    public class EngineMastersContext : DbContext
     {
         public EngineMastersContext(DbContextOptions<EngineMastersContext> options) : base(options) { }
 
@@ -15,8 +16,11 @@ namespace EngineMasters_BackEnd.DAL
         {
             base.OnModelCreating(modelBuilder);
 
-            // Apply configurations if you have any
-            modelBuilder.ApplyConfiguration(new RepairBookingConfiguration()); // Переконайтеся, що цей клас існує
+            // Apply configurations
+            // modelBuilder.ApplyConfiguration(new RepairBookingConfiguration());
+            // modelBuilder.ApplyConfiguration(new CustomerConfiguration());
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
         }
     }
 }
